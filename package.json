@@ -1,0 +1,28 @@
+{
+  "name": "gabeover",
+  "version": "1.0.0",
+  "description": "nightwatch automation testing framework for UI testing",
+  "main": "nightwatch.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "eslint": "^3.16.1",
+    "eslint-plugin-promise": "^3.4.2",
+    "nightwatch-slack-reporter": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node nightwatch -e chrome -a overstock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchovatiya88/gabeover.git"
+  },
+  "author": "Ronak Chovatiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchovatiya88/gabeover/issues"
+  },
+  "homepage": "https://github.com/rchovatiya88/gabeover#readme"
+}
