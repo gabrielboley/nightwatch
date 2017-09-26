@@ -1,5 +1,5 @@
 
-#Testing Automation Framework using nightwatch js
+# Testing Automation Framework using nightwatch js
 
 UI automated testing framework powered by Node.js. It uses the Selenium WebDriver API. 
 
