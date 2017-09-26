@@ -6,12 +6,18 @@ UI automated testing framework powered by Node.js. It uses the Selenium WebDrive
 This Project can used as a template to create automation tests for other websites, as only the test variables will change but the configuration and setup will remail the same. 
 
 
+
 ## Getting Started
 
 These instructions will help you install nightwatch.js framework on your local machines for testing purposes. The project includes 
 all the necessary selenium and browser drivers and jar files. 
 
 You will need to local log directory. 
+
+### Official Guide 
+
+[Nightwatch Developers Guide](http://nightwatchjs.org/guide)
+
     
 ### Prerequisities
 
