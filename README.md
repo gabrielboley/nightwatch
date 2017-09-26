@@ -8,7 +8,7 @@ This Project can used as a template to create automation tests for other website
 
 ## Getting Started
 
-These instructions will help you install nightwatch.js framework on your local machines for tesing purposes. The project includes 
+These instructions will help you install nightwatch.js framework on your local machines for testing purposes. The project includes 
 all the necessary selenium and browser drivers and jar files. 
 
 You will need to local log directory. 
@@ -35,10 +35,29 @@ node --version
  Git clone or download the 'https://github.com/rchovatiya88/gabeover.git' project
 ```
 
+### View the project 
+  - Open in your favorite IDE 
+
 ## Running the tests
 
-    To run the test locally on your machine, type the following command in the project directory
+    To run the test locally on your machine, In `terminal` command link, type the following command in the project directory. (make sure your in the main directory not sub folders when running tests. i.e '/documents/gabeover')
    
+**To Run tests**
+
+
+```
+npm test 
+```
+  - In `package.json` you can specific test commands. 
+  ```json
+  "devDependencies": {},
+  "scripts": {
+    "test": "node nightwatch -e chrome -a overstock"
+  },
+
+  ```
+
+
 **To run all tests**
 ```
 node nightwatch  -e chrome 
